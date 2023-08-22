@@ -1,6 +1,9 @@
 import { from } from 'rxjs';
 import { last } from 'rxjs/operators';
 
+// https://www.learnrxjs.io/learn-rxjs/operators/filtering/last
+// Example 1: Last value in sequence
+
 const source_1$ = from([1, 2, 3, 4, 5]);
 const source_2$ = from([
   [1, 2],
